@@ -1,0 +1,25 @@
+{
+  "name": "online-shop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Sumit Patel",
+  "license": "ISC",
+  "description": "The complete online shop",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "connect-mongodb-session": "^5.0.0",
+    "csurf": "^1.10.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "mongodb": "^6.16.0",
+    "multer": "^1.4.5-lts.2",
+    "nodemon": "^3.1.10",
+    "stripe": "^18.1.1",
+    "uuid": "^11.1.0"
+  }
+}

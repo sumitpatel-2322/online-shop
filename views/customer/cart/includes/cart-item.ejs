@@ -1,0 +1,12 @@
+<article class="cart-item">
+  <div class="cart-item-info">
+    <h2><%=item.product.title%></h2>
+    <p>$<%=item.totalPrice%><span class="cart-product-price">($ <%=item.product.price%> per unit)</span></p>
+  </div>
+  <div class="cart-item-management">
+    <form class="cart-item-management" data-productId="<%=item.product.id%>" data-csrf="<%=csrfToken%>">
+      <input type="number" value="<%=item.quantity%>" required />
+      <button class="btn btn-alt">Update</button>
+    </form>
+  </div>
+</article>
